@@ -10,11 +10,11 @@ If you've purchased one of these 7w PWM RGBW bulb with the Tasmota firmware from
 
 ## Steps
 
-1. Download [tasmota-minimal.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/tasmota-minimal.bin.gz) and [WLED_0.14.0_ESP8266.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/WLED_0.14.0_ESP8266.bin.gz)
-2. Log into the Tasmota UI
-3. Click into the console, and enter: "SetOption78 1"
+1. Download [tasmota-minimal.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/tasmota-minimal.bin.gz) and [WLED_0.14.0_ESP8266.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/WLED_0.14.0_ESP8266.bin.gz) from this repo, or from WLED/Tasmota directly.
+2. Log into the Tasmota UI.
+3. Click into the console, and enter: "SetOption78 1".
 4. Return to the main menu, click on 'Firmware Upgrade'. In the bottom "Upgrade by file upload" section, choose the "WLED_0.14.0_ESP8266.bin.gz" file from step 1.  Click 'Start Upgrade'.
-5. Skip steps 6 & 7 if you did not recieve any errors
+5. Skip steps 6 & 7 if you did not recieve any errors.
 
 If you recieved an error about free space: Some of these (and similar) bulbs are manufactured with reduced flash space.  I believe my bulbs shipped with the ESP8285 which only have 2M of flash (instead of the usual 4M that ESP8266 carry).  My ESP8285 was shy of having enough free space to upgrade the firmware by a dozen KBs.  If this is your scenario, follow these additional steps.   
 
@@ -22,7 +22,7 @@ If you recieved an error about free space: Some of these (and similar) bulbs are
 7. When that is complete, click on 'Firmware Upgrade'. In the bottom "Upgrade by file upload" section, choose the "WLED_0.14.0_ESP8266.bin.gz" file from step 1.  Click 'Start Upgrade'.
 
 8. Log into the WLED portal from a wifi enabled device (cell, laptop, etc).  If prompted, the password is 'wled1234'.
-9. Log into your wifi
+9. Log into your wifi.
 10. Switch back to your wifi, log into the wled UI, click Config, LED Prefrences, and use the following settings: in LED outputs: 1 = PWM RGBW, GPIOs = 4, 12, 14, 5.  Click Save.
 
 Done!
