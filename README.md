@@ -10,7 +10,7 @@ If you've purchased one of these 7w PWM RGBW bulb with the Tasmota firmware from
 
 ## Steps
 
-1. Download the .gz files in this repo
+1. Download [tasmota-minimal.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/tasmota-minimal.bin.gz) and [WLED_0.14.0_ESP8266.bin.gz](https://github.com/GoingOffRoading/Athom-Tasmota-7W-Color-Bulb-to-WLED/blob/main/WLED_0.14.0_ESP8266.bin.gz)
 2. Log into the Tasmota UI
 3. Click into the console, and enter: "SetOption78 1"
 4. Return to the main menu, click on 'Firmware Upgrade'. In the bottom "Upgrade by file upload" section, choose the "WLED_0.14.0_ESP8266.bin.gz" file from step 1.  Click 'Start Upgrade'.
