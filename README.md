@@ -23,7 +23,7 @@ If you recieved an error about free space: Some of these (and similar) bulbs are
 
 8. Log into the WLED portal from a wifi enabled device (cell, laptop, etc).  If prompted, the password is 'wled1234'.
 9. Log into your wifi.
-10. Switch back to your wifi, log into the wled UI, click Config, LED Prefrences, and use the following settings: in LED outputs: 1 = PWM RGBW, GPIOs = 4, 12, 14, 5.  Click Save.
+10. Switch back to your wifi, log into the wled UI, click Config, LED Prefrences, and use the following settings: in LED outputs: 1 = PWM RGB+CCT, GPIOs = 4, 12, 14, 13, 5.  Click Save.
 
 Done!
 
@@ -60,4 +60,12 @@ I pulled mine right from the OTA page: [https://ota.tasmota.com/tasmota/release/
 Current direct download link: [https://ota.tasmota.com/tasmota/release/tasmota-minimal.bin.gz](https://ota.tasmota.com/tasmota/release/tasmota-minimal.bin.gz)
 
 ---
+
+## Useful links I found along the way
+
+This list will get expanded on
+
+* LED Outputs: https://www.athom.tech/forum/strip-light-controller-bulb/wled-7w-bulb-gpio-configuration
+* Anthem Tasmota product page with GPIOs: https://www.athom.tech/blank-1/color-bulb
+
 
